@@ -1,0 +1,53 @@
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+.bg-black p-2 text-dark bg-opacity-50 {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+  }
+
+  .carousel-item {
+    height: 400px;
+    width: 40px;
+ }
+
+ "shadow": (
+  property: box-shadow,
+  class: shadow,
+  values: (
+    null: var(--#{$prefix}box-shadow),
+    sm: var(--#{$prefix}box-shadow-sm),
+    lg: var(--#{$prefix}box-shadow-lg),
+    none: none,
+  )
+ )
+
+ .container {
+    /* grid-template-columns: auto auto;
+    grid-template-rows: 80px 200px;
+    justify-content: space-evenly; */
+    margin: 100px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+  }
+  .card-title{
+    padding-top: 20px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom:500px;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .b1{
+    background-color: aqua;
+  }
